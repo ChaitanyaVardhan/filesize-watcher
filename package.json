@@ -1,0 +1,14 @@
+{
+  "name": "event-emitter",
+  "version": "0.0.1",
+  "description": "An event emitter that watches for changes in file size",
+  "main": "FilesizeWatcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
