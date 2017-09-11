@@ -12,7 +12,7 @@ var FilesizeWatcher = function(path) {
     }
 
     fs.stat(path, function(err, stats) {
-	self.lastfilesize = stats.size);
+	self.lastfilesize = stats.size;
     });
 
     self.interval = setInterval(
